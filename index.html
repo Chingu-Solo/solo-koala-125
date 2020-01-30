@@ -6,22 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Favorite Fonts</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header id="main-header">
-        <a href="#">Google Fonts</a>
+    <header id="main-header" class="flex">
+        <a href="#" id="logo"><b>Google</b> Fonts</a>
         <!--TODO: Check for css uppercase-->
         <a href="#">CATALOG</a>
         <a href="#">FEATURED</a>
         <a href="#">ARTICLES</a>
         <a href="#">ABOUT</a>
-        <hr/>
     </header>
+    <hr/>
+
 
     <nav id="main-nav">
-        <input type="text" id="search-font">
-        <input type="text" id="type-something">
+        <input type="text" id="search-font" placeholder="Search" />
+        <input type="text" id="type-something" placeholder="Type something">
         <select name="font-size" id="font-size"></select>
         <button id="white-theme"></button>
         <button id="black-theme"></button>

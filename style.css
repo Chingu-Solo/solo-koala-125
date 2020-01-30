@@ -1,0 +1,45 @@
+#main-header,
+#main-nav {
+    margin: 0 50px 0 50px;
+}
+
+#main-header a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .6);
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+#logo {
+    font-size: 2em;
+    flex: 1;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#main-nav {
+    border: 1px solid rgba(0, 0, 0, .6);
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+#search-font,
+#type-something {
+    border: none;
+    width: 30%;
+    outline: none;
+}
+
+hr {
+    margin: 10px 40px 20px 40px;
+}
+
+#main-footer {
+    position: fixed;
+    bottom: 0;
+}
